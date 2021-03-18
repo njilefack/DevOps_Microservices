@@ -5,7 +5,7 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath=macvox380/5036d2281b6b
 
 # Step 2:  
 # Authenticate & tag
