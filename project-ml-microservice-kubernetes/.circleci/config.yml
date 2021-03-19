@@ -21,6 +21,8 @@ jobs:
       - checkout
 
       - restore_cache:
+          paths:
+            - ~/project
           keys:
             - v1-dependencies-{{ checksum "requirements.txt" }}
             - v1-dependencies-
